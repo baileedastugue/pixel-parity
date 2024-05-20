@@ -1,0 +1,23 @@
+{
+  "name": "pixel-parity",
+  "version": "1.0.0",
+  "description": "A Chrome extension to overlay images on top of a browser tab. This is primarily geared towards matching functional code to UX designs - and perhaps adding my cat to a variety of backgrounds easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baileedastugue/pixel-parity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baileedastugue/pixel-parity/issues"
+  },
+  "homepage": "https://github.com/baileedastugue/pixel-parity#readme",
+  "dependencies": {
+    "chrome-types": "^0.1.283"
+  }
+}
