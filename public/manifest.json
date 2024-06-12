@@ -1,0 +1,6 @@
+{
+  "manifest_version": 3,
+  "name": "Pixel Parity",
+  "version": "1.0.0",
+  "description": "Overlay images on top of the browser's tab."
+}
