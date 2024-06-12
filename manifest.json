@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Pixel Parity",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "description": "Overlay images on top of the browser's tab.",
+  "devtools_page": "html/index.html",
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "content_scripts": [
+    {
+      "js": ["scripts/overlay.js"],
+      "matches": ["*://*/*"]
+    }
+  ]
+}
